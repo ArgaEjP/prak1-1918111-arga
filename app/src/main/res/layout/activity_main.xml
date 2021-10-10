@@ -31,4 +31,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.202" />
 
+    <Button
+        android:id="@+id/segitiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="segitiga"
+        android:text="Segitiga"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
